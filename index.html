@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        .start div {
+            display:flex;
+            background-color :rgb(50, 184, 140);
+            color :blue;
+            justify-content: center;
+            font-family: Sacramento, cursive;
+        }
+        .image{
+            display:flex;
+            justify-content: center;
+            align-content: end;
+        }
+        .abc{
+            display: flex;
+            margin-top: 100px;
+            justify-content: center;
+        }
+        .intro h1{
+            display:flex;
+            justify-content: center;
+            font-size: times;
+            
+        }
+        .me{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+        }
+        .content{
+            display:flex;
+            justify-content: center;
+            font-style: italic;
+
+        }
+        .skills{
+            display:flex;
+           
+
+        }
+        .skill{
+            display: flex;
+            color:aquamarine;
+            font-size: x-large;
+            justify-content: center;
+        }
+        .cat{
+           
+            float:right;
+            text-align:center;
+
+        }
+        .contents{
+      
+           
+            text-align:center;
+
+        }
+        .cats{
+           
+            float:left;
+
+        }
+        .folio{
+            
+            height:250px;
+            width:250px;
+            float:left;
+            margin-top: 20px;
+
+        }
+        #a{
+            text-align:center;
+        }
+        .Bye{
+            display: flex;
+            font-size: x-large;
+            justify-content: center;
+        }
+        .contact{
+            padding: 10px;
+            background-color: #ff6600;
+            border-radius: 5px;
+            border: none;
+            cursor:pointer;
+            
+        }
+        .Bottom{
+            display:flex;
+            justify-content:space-around;
+            background-color: aquamarine;
+            padding: 20px;
+            text-align: center;
+            font-style: black bold;
+        }
+        @media (max-width: 1250px) 
+        {
+            .intro {
+            flex-direction: column;
+            height: 100%;
+        }
+            .title{
+                flex-direction: column;
+                height: 100%;
+        }
+        .skills{
+                flex-direction: column;
+                height: 100%;
+        }
+        .final{
+                flex-direction: column;
+                height: 100%;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <section class="title"></section>
+        <div class="start">
+            <div><h1>I'm Garvit</h1></div>
+            <div><h2>a programmer</h2></div>
+            <div class= "image"><img src="./mountain.png" /></div>
+        </div>
+   </section>
+   <section class="intro">
+        <div class="abc"><img class="me"src="./caed8f0b-ab10-4409-b661-bfc63a605401.jpg" /></div>
+        <div><h1>HELLO!</h1></div>
+        <div class="content"><p>I am an iOS and Web Developer.</br>
+             I'm a espiring web developer.</br> 
+            I ❤️ coffee and brew my own Fanta.</br></p></div>
+   </section>
+
+   <section class="skills">
+        <div class="medium">
+            <div class="skill"><h1>MY SKILLS</h1></div>
+            <div class="cat">
+                <img class="cats"src="./cat-typing.gif"/>
+                <h1>Design & Development</h1>
+                <p>
+                    "I started learning to code when I was 12 years old because
+                    I wanted to make my own video games.
+                    Over time, I have gained a wealth of experience designing and
+                    developing mobile and web applications."
+                </p>
+            </div>
+            <div class="Port">
+                <img class="folio" src="./robinson-169hero-portfolio-shutterstock.webp"/>
+                <h1 id="a">Portfolio Website</h1>
+                <div class="contents"><p>
+                    "I made my own portfolio website using HTML and CSS.
+                    It consist of all the infomration about my projects."
+                </p></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="Bye">
+            <a href="https://www.google.com/search?q=mail&rlz=1C1CHBF_enIN1050IN1050&oq=mail+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABhDGIoFMgkIAhAAGEMYigUyDwgDEAAYChiDARixAxiABDIJCAQQABhDGIoFMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINTA4MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"><button class="contact"> CONTACT ME</button></a>
+        </div>
+        <div class="Bottom">
+            <a class="footer link" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter</a>
+            <a class="footer link" href="https://www.linkedin.com/feed/">Linkdin</a>
+            <a class="footer link" href="https://www.instagram.com/">Instagram</a>
+        </div>
+    </section>
+    
+</body>
+</html>
